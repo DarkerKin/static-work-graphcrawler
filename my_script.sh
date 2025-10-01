@@ -6,7 +6,6 @@
 #SBATCH --error=slurm-%j.err
 #SBATCH --mem=8G
 
- g++ -std=c++17 -I$HOME/rapidjson/include level_client.cpp -lcurl -o graph_crawler
 
  ./graph_crawler "Tom Hanks" 3 > test1.txt
 
