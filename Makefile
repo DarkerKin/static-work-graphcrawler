@@ -1,4 +1,4 @@
-#CXXFLAGS=-I path/to/rapidjson
+CXXFLAGS=-I $HOME/rapidjson/include
 LDFLAGS=-lcurl
 LD=g++
 CC=g++
